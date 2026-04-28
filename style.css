@@ -1,0 +1,301 @@
+body {
+    min-height: 100vh;
+    background-color: #FFF8E7;
+    background-image: url("asst/japanese-fresh-bg.png");
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-size: cover;
+    background-attachment: fixed;
+    color: #3E3228;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    background-color: #FFF8E7;
+    border-bottom: 2px solid #D8C3A5;
+    padding-top: 48px;
+    padding-bottom: 48px;
+}
+
+.main-title,
+.section-title {
+    color: #4F7C5A;
+}
+
+.text-muted,
+header .lead {
+    color: #6FA8A0 !important;
+}
+
+.profile-section {
+    max-width: 1160px;
+}
+
+.profile-layout {
+    align-items: stretch;
+}
+
+.profile-photo-column,
+.profile-content-column {
+    display: flex;
+}
+
+.profile-image {
+    width: 100%;
+    min-height: 560px;
+    height: 100%;
+    object-fit: cover;
+    object-position: center top;
+    border: 5px solid #D8C3A5;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(62, 50, 40, 0.1);
+    transition: transform 0.25s, box-shadow 0.25s;
+}
+
+.profile-info {
+    flex: 1;
+    background-color: #FFF8E7;
+    border: 1px solid #D8C3A5;
+    border-radius: 10px;
+    padding: 24px;
+    box-shadow: 0 4px 10px rgba(62, 50, 40, 0.08);
+    transition: transform 0.25s, box-shadow 0.25s;
+}
+
+.profile-info p {
+    line-height: 1.65;
+}
+
+.work-area {
+    background-color: #FAF3E0;
+    border: 1px solid #D8C3A5;
+    border-radius: 10px;
+    transition: transform 0.25s, box-shadow 0.25s;
+}
+
+.profile-media-video {
+    display: block;
+    width: 100%;
+    height: auto;
+    max-height: none;
+    border-radius: 8px;
+}
+
+.info-card {
+    background-color: #FAF3E0;
+    border: 1px solid #D8C3A5;
+    border-radius: 10px;
+    height: 100%;
+    transition: transform 0.25s, box-shadow 0.25s;
+}
+
+.card-title {
+    color: #4F7C5A;
+}
+
+.banner-image {
+    width: 100%;
+    max-height: 430px;
+    object-fit: cover;
+    border: 5px solid #D8C3A5;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(62, 50, 40, 0.08);
+    transition: transform 0.25s, box-shadow 0.25s;
+}
+
+.story-accordion-section {
+    background-color: #FFF8E7;
+    border: 1px solid #D8C3A5;
+    border-radius: 12px;
+    padding: 24px;
+    box-shadow: 0 4px 10px rgba(62, 50, 40, 0.08);
+    transition: transform 0.25s, box-shadow 0.25s;
+}
+
+.story-accordion .accordion-item {
+    background-color: #FAF3E0;
+    border: 1px solid #D8C3A5;
+    border-radius: 10px;
+    margin-bottom: 14px;
+    overflow: hidden;
+    transition: transform 0.25s, box-shadow 0.25s;
+}
+
+.story-accordion .accordion-button {
+    background-color: #FAF3E0;
+    color: #4F7C5A;
+    padding: 14px 16px;
+    transition: transform 0.25s, background-color 0.25s;
+}
+
+.story-accordion .accordion-button:hover {
+    background-color: #F6E7CB;
+}
+
+.story-accordion .accordion-button:not(.collapsed) {
+    background-color: #F6E7CB;
+    color: #4F7C5A;
+    box-shadow: none;
+}
+
+.story-accordion .accordion-body {
+    background-color: #FFF8E7;
+    padding: 20px;
+}
+
+.accordion-title-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 10px;
+}
+
+.chapter-number {
+    background-color: #A7D8DE;
+    color: #3E3228;
+    padding: 5px 10px;
+    border-radius: 6px;
+    font-size: 0.95rem;
+}
+
+.chapter-label {
+    color: #6FA8A0;
+    font-size: 0.88rem;
+}
+
+.film-strip-line {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+}
+
+.film-strip-line span {
+    display: inline-block;
+    width: 6px;
+    height: 12px;
+    background-color: #A7D8DE;
+    border-radius: 2px;
+}
+
+.story-card {
+    background-color: #FFF8E7;
+    border: 1px solid #D8C3A5;
+    border-radius: 10px;
+    box-shadow: 0 3px 8px rgba(62, 50, 40, 0.07);
+    transition: transform 0.25s, box-shadow 0.25s;
+}
+
+.key-card {
+    background-color: #FAF3E0;
+    border: 1px solid #D8C3A5;
+    border-radius: 10px;
+    transition: transform 0.25s, box-shadow 0.25s;
+}
+
+.quote-box {
+    background-color: #FAF3E0;
+    color: #3E3228;
+    border-left: 5px solid #A7D8DE;
+    border-radius: 8px;
+    line-height: 1.7;
+    transition: transform 0.25s, box-shadow 0.25s;
+}
+
+.text-primary {
+    color: #6FA8A0 !important;
+}
+
+.btn-primary {
+    background-color: #7BAE7F;
+    border-color: #7BAE7F;
+    color: #FFFDF5;
+    transition: transform 0.25s, background-color 0.25s, border-color 0.25s;
+}
+
+.btn-primary:focus,
+.btn-outline-primary:focus,
+.accordion-button:focus {
+    box-shadow: 0 0 0 3px rgba(167, 216, 222, 0.5);
+}
+
+.btn-primary:hover {
+    background-color: #5F8F63;
+    border-color: #5F8F63;
+    color: #FFFDF5;
+}
+
+.btn-outline-primary {
+    color: #4F7C5A;
+    border-color: #7BAE7F;
+    transition: transform 0.25s, background-color 0.25s, border-color 0.25s;
+}
+
+.btn-outline-primary:hover {
+    background-color: #7BAE7F;
+    border-color: #7BAE7F;
+    color: #FFFDF5;
+}
+
+footer.bg-dark {
+    background-color: #5F7161 !important;
+}
+
+footer.text-white {
+    color: #FFFDF5 !important;
+}
+
+@media (hover: hover) {
+    .profile-image:hover,
+    .banner-image:hover {
+        transform: scale(1.03);
+        box-shadow: 0 8px 18px rgba(62, 50, 40, 0.16);
+    }
+
+    .profile-info:hover,
+    .work-area:hover,
+    .info-card:hover,
+    .story-accordion-section:hover,
+    .story-accordion .accordion-item:hover,
+    .story-card:hover,
+    .key-card:hover,
+    .quote-box:hover {
+        transform: scale(1.02);
+        box-shadow: 0 8px 18px rgba(62, 50, 40, 0.13);
+    }
+
+    .btn-primary:hover,
+    .btn-outline-primary:hover,
+    .story-accordion .accordion-button:hover {
+        transform: scale(1.04);
+    }
+}
+
+@media (max-width: 991px) {
+    .profile-image {
+        min-height: 460px;
+    }
+
+}
+
+@media (max-width: 768px) {
+    .profile-photo-column,
+    .profile-content-column {
+        display: block;
+    }
+
+    .profile-image {
+        max-width: 320px;
+        min-height: 0;
+        height: auto;
+        display: block;
+        margin: 0 auto;
+    }
+
+    .chapter-label {
+        display: none;
+    }
+
+    .story-accordion-section {
+        padding: 14px;
+    }
+}
